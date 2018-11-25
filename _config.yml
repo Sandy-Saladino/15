@@ -5,7 +5,7 @@ name: "Minimal-Block"
 description: "Minimalistic, friendly, responsive."
 language: "en"
 
-url: http://localhost:4000
+url: https://zhangpy.top
 baseurl: ''
 
 #------------------------------------------------------------------------------
@@ -49,3 +49,6 @@ gems: ['jekyll-paginate']
 sass:
     style: :compressed
     sass_dir: assets/css/
+    
+   plugins:
+  - jekyll-sitemap 
